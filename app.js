@@ -14,6 +14,6 @@ app.get('/',(req,res)=>{
 
 
 
-app.listen(port, () => {
-    console.log(`Server is running on ${port}`);
+app.listen(5555, () => {
+    console.log(`Server is running on 5555`);
 });
